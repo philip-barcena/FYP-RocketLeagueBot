@@ -10,7 +10,6 @@ def build_rlgym_v2_env():
     from rlgym_ppo.util import RLGymV2GymWrapper
     import numpy as np
     import os
-    os.environ['WANDB_API_KEY'] = 'd6fca2c7d8817bfeed97ff34b5eed12a9dab36dd'
 
     spawn_opponents = True
     team_size = 2
