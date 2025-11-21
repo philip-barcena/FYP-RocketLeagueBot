@@ -228,6 +228,9 @@ weights/
 replays/
 *.replay
 
+# Weights & Biases
+wandb/
+
 # Numpy data
 *.npy
 *.npz
@@ -242,4 +245,5 @@ buffers/
 # -----------------------------------------
 *.tmp
 *.bak
+*.swp
 *.swp
